@@ -1,62 +1,64 @@
 # discord-bot-nodejs-setup
 
-***Starter kit*** do tworzenia botów na Discorda przy użyciu Node.js.  
-To repozytorium zostało stworzone z myślą o osobach, które dopiero zaczynają swoją przygodę z programowaniem botów, ale również dla bardziej doświadczonych deweloperów, którzy chcą szybko rozpocząć nowy projekt. Zawiera ono wszystkie niezbędne elementy, abyś mógł od razu przystąpić do pracy.
+***Starter kit*** for creating Discord bots using Node.js.
 
-## Wymagania
+This repository was created for people who are new to bot programming, but also for more experienced developers who want to jumpstart a new project. It contains all the necessary elements to get you started right away.
 
-Zanim zaczniesz, upewnij się, że masz zainstalowane:
+## Requirements
 
-- **Node.js** (wersja 18.x lub nowsza)  
-  Node.js możesz pobrać z oficjalnej strony *[Nodejs.org](https://nodejs.org/)*
+Before you start, make sure you have installed:
 
-- **Discord Developer Account**  
-  Aby uzyskać token bota, musisz utworzyć aplikację w *[Discord Developer Portal](https://discord.com/developers/applications)*
+- **Node.js** (version 18.x or newer)
+You can download Node.js from the official website *[Nodejs.org](https://nodejs.org/)*
 
-## Instalacja
+- **Discord Developer Account**
+To get a bot token, you need to create an application in *[Discord Developer Portal](https://discord.com/developers/applications)*
 
-**Sklonuj repozytorium lub pobierz kod:**
+## Installation
+
+**Clone the repository or download the code:**
 
 ```bash
-git clone https://github.com/twojusername/discord-bot-nodejs-setup.git
+git clone https://github.com/yourusername/discord-bot-nodejs-setup.git
 cd discord-bot-nodejs-setup
 ```
-Alternatywnie możesz pobrać repozytorium jako plik ZIP i rozpakować go na swoim komputerze.
+Alternatively, you can download the repository as a ZIP file and unzip it on your computer.
 
-## Zainstaluj zależności:
+## Install dependencies:
 
-Używając **NPM**, uruchom polecenie:
+Using **NPM**, run the command:
 
 ```bash
 npm install
 ```
-To polecenie zainstaluje wszystkie potrzebne paczki wymienione w pliku *package.json*.
+This command will install all the necessary packages listed in the *package.json* file.
 
-## Skonfiguruj plik *.env* :
+## Configure the *.env* file:
 
-W repozytorium znajduje się plik *.env*.  
-Uzupełnij go swoim Discord bot tokenem, który możesz uzyskać z *Discord Developer Portal*, następnie dopisz go do pliku *.gitignore*.  
-Nie dodasz go wtedy do repozytorium aby nikt nie poznał twoich tokenów
+There is a *.env* file in the repository.
 
-## Uruchom bota:
+Fill it with your Discord bot token, which you can get from the *Discord Developer Portal*, then add it to the *.gitignore* file.  
+You will not add it to the repository so no one will know your tokens
 
-Po zainstalowaniu zależności i skonfigurowaniu tokenu możesz uruchomić bota:
+## Run the bot:
+
+Once you have installed the dependencies and configured the token, you can run the bot:
 
 ```bash
 node .
 ```
-Bot powinien teraz działać i być gotowy do interakcji.
+The bot should now be up and running and ready to interact.
 
-## Użycie
-Po uruchomieniu bota, dodaj go do swojego serwera Discord za pomocą linku autoryzacyjnego z *Discord Developer Portal*, upewniając się, że ma odpowiednie uprawnienia.  
-Domyślnie bot reaguje na prostą komendę, taką jak ***/ping***.  
-Możesz rozbudować tego bota, dodając więcej funkcjonalności według własnych potrzeb.
+## Usage
+Once the bot is up and running, add it to your Discord server using the authorization link from the *Discord Developer Portal*, making sure it has the right permissions.  
+By default, the bot responds to a simple command like ***/ping***.  
+You can extend this bot by adding more features according to your needs.
 
-## Przydatne linki:
+## Useful links:
 - [Node.js Documentation](https://nodejs.org/docs/latest/api/)
 - [Discord.js Documentation](https://discord.js.org/docs/packages/discord.js/14.16.2)
 - [Discord Developer Portal](https://discord.com/developers/applications)
 
-## Licencja:
+## License:
 
-Projekt jest dostępny na licencji MIT.
+The project is licensed under the ***MIT license***.
