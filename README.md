@@ -19,7 +19,7 @@ To get a bot token, you need to create an application in *[Discord Developer Por
 **Clone the repository or download the code:**
 
 ```bash
-git clone https://github.com/yourusername/discord-bot-nodejs-setup.git
+git clone https://github.com/slipre/discord-bot-nodejs-setup.git
 cd discord-bot-nodejs-setup
 ```
 Alternatively, you can download the repository as a ZIP file and unzip it on your computer.
